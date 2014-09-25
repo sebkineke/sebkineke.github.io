@@ -28,7 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body { font-family:Helvetica; 
+body { 
 	line-height: 1;
 }
 ol, ul {
@@ -48,7 +48,7 @@ table {
 }
 
 /* Add Styles Here */
-body { font-family:Times; font-size:14px; }
+body { font-family:Helvetica;  font-size:14px; }
 section#content { margin:0 auto; width:960px; padding:20px 0px; }
 
 h1 { font-size:48px; font-weight:bold; color:#fc9e70; text-align:center; }
