@@ -58,10 +58,11 @@ img.center {
 }
 header { }
 h1 { font-family: "HelveticaNeue-Light";
+	 font-style: italic;
 	 font-size:48px; 
 	 color:#9bdbc1; 
 	 text-align:center;
 	 text-transform: uppercase;
-	 letter-spacing: 3px; }
+	 letter-spacing: 5px; }
 h2 { font-size:16px; font-weight:bold; color:black; text-align:center; }
 p { padding-bottom:10px; text-align: center;}
