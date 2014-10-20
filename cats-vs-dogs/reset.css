@@ -82,6 +82,7 @@ html[xmlns] .clearfix { display: block; }
 /* CSS BEGINS HERE OR FUCK OFF */
 
 body {
+	margin: 0 auto;
 
 }
 
