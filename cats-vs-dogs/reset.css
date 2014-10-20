@@ -51,13 +51,19 @@ table {
 }
 
 
-/* Center Content */
+/* CSS BEGINS HERE OR FUCK OFF */
 
 .centered { 
   margin:0 auto;
   width:960px;
 }
 
+li  {
+	list-style: none;
+	float: left;
+	text-transform: uppercase;
+	
+}
 
 /* Clearfix */
 .clearfix:after {
