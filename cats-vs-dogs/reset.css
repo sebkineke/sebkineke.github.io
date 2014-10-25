@@ -96,13 +96,15 @@ nav ul li {
 	text-align: center;
 	margin:10px;
 	padding:10px;
+
+}
+
+nav ul li a{
 	font-family:Georgia;
 	color:black;
 	text-transform:uppercase;
 	text-decoration:none;
-
 }
-
 
 .dogs {
 	float: left;
