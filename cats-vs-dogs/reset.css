@@ -81,18 +81,48 @@ html[xmlns] .clearfix { display: block; }
 
 /* CSS BEGINS HERE OR FUCK OFF */
 
+
+
 body {
 	margin: 0 auto;
-	width: 100%;
+	width: 70%;
+	padding:20px;
 
 }
 
-nav  {
-	list-style: none;
+nav ul li {
+	list-style:none;
+	display:inline-block;
+	text-align: center;
+	margin:10px;
+	padding:10px;
+	font-family:Georgia;
+	color:black;
+	text-transform:uppercase;
+	text-decoration:none;
+
+}
+
+
+.dogs {
 	float: left;
-	text-transform: uppercase;
 
 }
+
+.cats {
+	float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Clearfix */
 .clearfix:after {
