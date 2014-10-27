@@ -53,3 +53,78 @@ table {
 /* -----------------END RESET---------------- */
 
 
+
+
+
+
+
+
+
+/* ---------STARTTTTTTTT CCCCCSSSSSSSSSSSSS-------- */
+
+
+body {
+	margin: 0 auto;
+	width: 960px;
+	font-family: Helvetica;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 23px;
+
+}
+
+h2 {
+	font-size: 13px;
+	font-weight: lighter;
+	color: #adafaa;
+	margin-top: .5em;
+	margin-bottom:1em;
+
+}
+
+p {
+	font-size: 14px;
+	line-height: 18px;
+
+
+}
+
+.llama1pic {
+	display: inline-block;
+	padding: 0px 15px 5px 0px;
+	float: left;
+}
+
+
+.llama1thing {
+	display: block;
+	float: left;
+	width: 450px;
+	padding: 60px 50px 10px 0px;
+
+} 
+
+.llama2pic {
+	display: inline-block;
+	float: left;
+	padding: 0px 15px 5px 0px;
+
+}
+
+.llama2thing {
+	display: block;
+	float: left;
+	width: 450px;
+	padding: 60px 10px 10px 0px;
+} 
+
+
+
+
+
+
+
+
+

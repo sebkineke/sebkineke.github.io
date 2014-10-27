@@ -82,24 +82,42 @@ html[xmlns] .clearfix { display: block; }
 /* CSS BEGINS HERE OR FUCK OFF */
 
 
+#logo {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	padding: 20px;
+
+}
 
 body {
 	margin: 0 auto;
-	width: 70%;
+	width: 960px;
 	padding:20px;
+	font-family: Georgia;
+
+}
+
+img {
+	max-width: 450px;
+}
+
+nav {
+	text-align: center;
 
 }
 
 nav ul li {
 	list-style:none;
-	display:inline-block;
-	text-align: center;
+	display:inline;
+	font-size: 23px;
+	font-weight: bold;
 	margin:10px;
 	padding:10px;
 
 }
 
-nav ul li a{
+nav ul li a {
 	font-family:Georgia;
 	color:black;
 	text-transform:uppercase;
@@ -107,19 +125,38 @@ nav ul li a{
 }
 
 .dogs {
+	line-height: 20px;
 	float: left;
+	width: 450px;
+	margin: 5px;
+	padding: 5px;
 
 }
 
 .cats {
+	line-height: 20px;
 	float: right;
-
+	width: 450px;
+	margin: 5px;
+	padding: 5px;
 }
 
+h2 {
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 30px;
+	padding: 5px 0px 10px 0px;
+}
 
+footer {
+	clear: both;
+}
 
+hr {
 
-
+	height: 3px;
+	background-color: black;
+}
 
 
 
