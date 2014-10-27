@@ -69,15 +69,19 @@ body {
 	padding-top: 5px;
 }
 
+		#site-header h1 {
+			display: block;
+			float: left;
+			padding-right: 300px;
+			padding-left: 300px;
+		}
 
+		#site-header h1 a {
+		 	width: 400; height: 300px;
+		 	background: url("images/logo.png") top right;
+		 	margin: 0 0 0 -2000px;
+		}
 
-header h1 {
-	display: block;
-	float: left;
-	padding-right: 300px;
-	padding-left: 300px;
-
-}
 
 #top-nav a {
 	text-decoration: none;
@@ -86,7 +90,6 @@ header h1 {
 }
 
 #top-nav {
-	position: static;
 	float: right;
 	padding-right: 300px;
 
@@ -98,30 +101,32 @@ header h1 {
 
 }
 
-#main-menu {
-	display: inline-block;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 300px;
-}
+		#main-menu {
+			margin: 0 auto;
+			width: 80%;
+			display: inline-block;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			padding-left: 300px;
+		}
 
 
-#main-menu ul li {
-	text-align: center;
-	display: inline;
-	padding-top: 40px;
-	padding-right: 20px;
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: bold;
+					#main-menu ul li {
+						text-align: center;
+						display: inline;
+						padding-top: 40px;
+						padding-right: 20px;
+						text-transform: uppercase;
+						font-size: 14px;
+						font-weight: bold;
 
-}
+					}
 
-#main-menu ul li a {
-	text-decoration: none;
-	color: white;	
+					#main-menu ul li a {
+						text-decoration: none;
+						color: white;	
 
-}
+					}
 
 #content-wrapper {
 	padding-top: 50px;
@@ -130,124 +135,122 @@ header h1 {
 
 }
 
-#content {
-	float: left;
-	width: 400px;
-}
+		#content {
+			float: left;
+			width: 400px;
+		}
 
-#page {
-	float: left;
-	width: 400px;
-	padding-left: 300px;
-}
+				#page {
+					float: left;
+					width: 400px;
+					padding-left: 300px;
+				}
 
-#page h1 {
-	font-size: 30px;
-	color: #75491E;
-	font-weight: bold;
-	text-transform: uppercase;
-	margin-bottom: .25em;
-}
+				#page h1 {
+					font-size: 30px;
+					color: #75491E;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: .25em;
+				}
 
-#page h2 {
-	font-size: 18px;
-	color: #75491E;
-	font-weight: bold;
-	text-transform: uppercase;
-	margin-bottom: .25em;
-}
+				#page h2 {
+					font-size: 18px;
+					color: #75491E;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: .25em;
+				}
 
-#page p {
-	font-size: 12px;
-	line-height: 1.5em;
-	padding-bottom: 10px;
-}
-
-
-#sidebar {
-	float: right;
-	width: 200px;
-}
-
-#sidebar h1 {
-	font-size: 18px;
-	color: #75491E;
-	font-weight: bold;
-	text-transform: uppercase;
-	margin-bottom: .25em;
-}
+				#page p {
+					font-size: 12px;
+					line-height: 1.5em;
+					padding-bottom: 10px;
+				}
 
 
-#sidebar ul li {}
+				#sidebar {
+					float: right;
+					width: 200px;
+				}
+
+				#sidebar h1 {
+					font-size: 18px;
+					color: #75491E;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: .25em;
+				}
 
 
-#sidebar ul li a {
-	text-decoration: none;
-	font-size: 12px;
-	color: #75491E;
-}
+				#sidebar ul li {}
 
 
-#sidebar a {}
+				#sidebar ul li a {
+					text-decoration: none;
+					font-size: 12px;
+					color: #75491E;
+				}
+
+
+				#sidebar a {}
 
 
 #footer-wrapper {
 	background-color: #75491E;
 	float: left;
-	width: 100%;
+	width: 80%;
+	padding-left: 400px;
 }
 
-#site-footer {
-	padding-top: 15px;
+		#site-footer {
+			padding-top: 15px;
+
+		}
 
 
-}
+		#footer-contact {
+			float: left;
+			width: 150px;
+
+		}
+
+				#footer-contact h1 {
+					font-size: 16px;
+					color: #CDBE9F;
+					text-transform: uppercase;
+					font-weight: bold;
+					margin-bottom: 5px;
+				}
+
+				#footer-contact p {
+					font-size: 12px;
+					color: white;
+					line-height: 18px;
+					padding-bottom: 10px;
+				}
 
 
-#footer-contact {
-	float: left;
-	width: 150px;
-	padding-left: 300px;
+		#footer-follow {
+			float: left;
+			width: 300px;
 
-}
+		}
 
-#footer-contact h1 {
-	font-size: 16px;
-	color: #CDBE9F;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-bottom: 5px;
-}
+				#footer-follow h1 {
+					font-size: 16px;
+					color: #CDBE9F;
+					text-transform: uppercase;
+					font-weight: bold;
+					margin-bottom: 5px;
+					
+				}
 
-#footer-contact p {
-	font-size: 12px;
-	color: white;
-	line-height: 18px;
-	padding-bottom: 10px;
-}
-
-
-#footer-follow {
-	float: left;
-	width: 300px;
-	padding-left: 500px;
-
-}
-
-#footer-follow h1 {
-	font-size: 16px;
-	color: #CDBE9F;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-bottom: 5px;
-	
-}
-
-#footer-follow ul li {
-	display: inline-block;
-	margin-bottom: 5px;
-	
-}
+				#footer-follow ul li {
+					display: inline-block;
+					margin-bottom: 5px;
+					
+				}
 
 
 
