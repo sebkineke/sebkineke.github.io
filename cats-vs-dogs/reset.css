@@ -82,27 +82,44 @@ html[xmlns] .clearfix { display: block; }
 /* CSS BEGINS HERE OR FUCK OFF */
 
 
-#logo {
-	display: block;
+body { 
 	margin: 0 auto;
-	width: 400px;
-	padding: 20px;
-
-}
-
-body {
-	margin: 0 auto;
-	width: 960px;
+	width: 80%;
 	padding:20px;
-	font-family: Georgia;
+	font-family: Georgia; }
 
-}
+
+header {
+	text-align: center; }
+
+
+		.logo {
+			text-align: center;
+			display: inline-block;
+		}
+
+		header h1 {
+			float: left;
+			font-size: 4em;
+			font-family: sans-serif;
+			text-transform: uppercase;
+			font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;}
+
+		header h2 {
+			float: left;
+			font-size: 2em;
+			font-family: Georgia; 
+			font-style: italic;
+			border-top: 2px;
+			border-bottom: 2px; }
+
 
 img {
 	max-width: 450px;
 }
 
 nav {
+	clear: both;
 	text-align: center;
 
 }
@@ -127,18 +144,16 @@ nav ul li a {
 .dogs {
 	line-height: 20px;
 	float: left;
-	width: 450px;
-	margin: 5px;
-	padding: 5px;
+	width: 45%;
+	margin: 1%;
 
 }
 
 .cats {
 	line-height: 20px;
 	float: right;
-	width: 450px;
-	margin: 5px;
-	padding: 5px;
+	width: 45%;
+	margin: 1%;
 }
 
 h2 {
@@ -151,6 +166,15 @@ h2 {
 footer {
 	clear: both;
 }
+
+		#wiki {
+			float: left;
+		}
+
+		#martha {
+			float: right;
+
+		}
 
 hr {
 
