@@ -212,8 +212,9 @@ hr {
 	.dogs { float: none; max-width: 90%; margin: 0 auto;}
 	.cats { float: none; max-width: 90%; margin: 0 auto;}
 
-	#wiki { margin-top: 5px;}	
-	#martha { float: left; margin-top: 5px;}
+	#wiki { margin-top: 5px; font-size: .75em}	
+	#martha { float: right; margin-top: 5px; font-size: .75em}
+
 
 
 
