@@ -81,6 +81,26 @@ html[xmlns] .clearfix { display: block; }
 
 /* CSS BEGINS HERE OR FUCK OFF */
 
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('fonts/league_gothic-webfont.eot');
+    src: url('fonts/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/league_gothic-webfont.woff2') format('woff2'),
+         url('fonts/league_gothic-webfont.woff') format('woff'),
+         url('fonts/league_gothic-webfont.ttf') format('truetype'),
+         url('fonts/league_gothic-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
 
 body { 
 	margin: 0 auto;
@@ -102,9 +122,9 @@ header {
 				header h1 {
 					float: left;
 					font-size: 4em;
-					font-family: sans-serif;
+					font-family: 'league_gothicregular';
 					text-transform: uppercase;
-					font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;}
+				}
 
 				header h2 {
 					float: left;
