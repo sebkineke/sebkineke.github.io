@@ -115,8 +115,8 @@ header {
 }
 
 
-		.logo {
-			display: block;
+		#logo {
+			display: inline-block;
 			margin: 0 auto;
 			width: 100%;
 
@@ -129,15 +129,26 @@ header {
 					text-transform: uppercase;
 				}
 
+				#vs {
+					float: left;
+					display: inline-block;
+					margin-top: 15px;				
+					border-top: 4px;
+					border-bottom: 4px;
+					border-style: solid;
+					border-color: #a5a39e;
+					padding: 5px;
+
+				}
+
 				header h2 {
 					float: left;
 					font-size: 3.5em;
 					font-family: Georgia; 
 					color: #a5a39e;
 					font-style: italic;
-					border-style: solid double;
-   					border-width: 5px 0px 5px 0px;
-
+					border-style: solid;
+   					border-width: 2px 0px 2px 0px;
 				}
 
 		nav {
