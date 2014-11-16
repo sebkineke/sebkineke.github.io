@@ -96,12 +96,6 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-
-
-
-
-
-
 body { 
 	margin: 0 auto;
 	width: 90%;
@@ -109,16 +103,16 @@ body {
 
 
 header {
-	text-align: center; 
 	width: 90%;
-	margin: 0 auto;
+    display: block;
+    margin: auto;
 }
 
 
 		#logo {
-			display: inline-block;
+			display: block;
 			margin: 0 auto;
-			width: 100%;
+			width: 45%;
 
 		}
 
@@ -131,7 +125,6 @@ header {
 
 				#vs {
 					float: left;
-					display: inline-block;
 					margin-top: 15px;				
 					border-top: 4px;
 					border-bottom: 4px;
@@ -142,7 +135,6 @@ header {
 				}
 
 				header h2 {
-					float: left;
 					font-size: 3.5em;
 					font-family: Georgia; 
 					color: #a5a39e;
@@ -154,6 +146,11 @@ header {
 		nav {
 			clear: both;
 			text-align: center;
+			border-top: 3px solid black;
+			border-bottom: 3px solid black;
+			padding-top: 10px;
+			padding-bottom: 10px;
+
 
 		}
 
@@ -172,6 +169,7 @@ header {
 					color:black;
 					text-transform:uppercase;
 					text-decoration:none;
+
 				}
 
 
@@ -231,11 +229,7 @@ footer {
 
 		}
 
-hr {
 
-	height: 3px;
-	background-color: black;
-}
 
 /* - - - - - - MEDIA QUERY WEEEEEEEE - - - - - -  */
 
@@ -255,11 +249,11 @@ hr {
 
 
 
-@media (max-width: 725px) {
+@media (max-width: 700px) {
 
 	body { width: 97%;	}
 
-	header { max-width: 97% }
+	#logo {font-size: .8em;}
 
 	nav ul li {display: block; font-size: 1em; margin: .5%; padding: 3px 0px 10px 0px;}
 			.bullet { display: none; }
