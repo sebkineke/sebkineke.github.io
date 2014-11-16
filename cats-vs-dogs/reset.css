@@ -116,23 +116,29 @@ header {
 
 
 		.logo {
+			display: block;
 			margin: 0 auto;
+			width: 100%;
+
 		}
 
 				header h1 {
 					float: left;
-					font-size: 4em;
+					font-size: 7em;
 					font-family: 'league_gothicregular';
 					text-transform: uppercase;
 				}
 
 				header h2 {
 					float: left;
-					font-size: 2em;
+					font-size: 3.5em;
 					font-family: Georgia; 
+					color: #a5a39e;
 					font-style: italic;
-					border-top: 2px;
-					border-bottom: 2px; }
+					border-style: solid double;
+   					border-width: 5px 0px 5px 0px;
+
+				}
 
 		nav {
 			clear: both;
