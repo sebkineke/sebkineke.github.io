@@ -106,13 +106,13 @@ header {
 	width: 90%;
     display: block;
     margin: auto;
+    text-align: center;
 }
 
 
 		#logo {
-			display: block;
+			display: inline-block;
 			margin: 0 auto;
-			width: 45%;
 
 		}
 

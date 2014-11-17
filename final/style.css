@@ -93,7 +93,7 @@ html[xmlns] .clearfix { display: block; }
 
 
 html {
-	background-color: #1c2630;
+	background-color: #101C24;
 
 	}
 
@@ -102,7 +102,6 @@ html {
 body {
 	width: 95%;
 	margin: 0 auto;
-
     font-family: 'Nunito', sans-serif;
 
 	}
@@ -111,6 +110,7 @@ body {
 
 header {
 	display: inline-block;
+	margin: 0 auto;
 	padding-top: 40px;
 	font-weight: 200;
 	color: white;
@@ -128,6 +128,15 @@ header h1 {
 
 	}
 
+header h1:hover {
+	font-size: 2.5em;
+	letter-spacing: 3px;
+	color: #101C24;
+	padding: 8px;
+	background-color: white;
+	border: 0px 0px 0px 0px;
+	}
+
 header h3 {
 	padding-top: 20px;
 	font-size: 1.5em;
@@ -137,15 +146,15 @@ header h3 {
 
 
 
+
+
 #planets { 
 	display: block;
 	padding-top: 150px;
-
 	}
 
-#planets a:hover{ 
-	border: 3px solid white;
-
+#planets a :hover { 
+	-webkit-transform: scale(1.1);
 	}
 
 
@@ -154,12 +163,16 @@ header h3 {
 					width: 35%;
 					}
 
+
+
+
 				#mercury {
 					float: left;
 					padding-top: 15%;
 					width: 3%;
-
 					}
+
+
 
 				#venus {
 					float: left;
@@ -167,12 +180,14 @@ header h3 {
 					width: 3%;
 					}
 
+
+
 				#earth {
 					float: left;
 					padding-top: 16%;					
 					width: 3%;
-
 					}
+
 
 				#mars {
 					float: left;
