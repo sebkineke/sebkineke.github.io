@@ -110,9 +110,8 @@ body {
 
 
 header {
-	padding-top: 40px;
 	display: inline-block;
-
+	padding-top: 40px;
 	font-weight: 200;
 	color: white;
 	text-transform: uppercase;	
