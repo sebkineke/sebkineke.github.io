@@ -121,18 +121,18 @@ header {
 
 
 
-header h1 {
+header h1 a {
 	display: inline-block;
 	color: white;
 	font-size: 2.5em;
 	letter-spacing: 3px;
 	border: 2px solid white;
 	padding: 8px;
-	text-decoration: none;
+	text-decoration: none;	
 
 	}
 
-header h1:hover {
+header h1 a:hover {
 	font-size: 2.5em;
 	letter-spacing: 3px;
 	color: #101C24;
