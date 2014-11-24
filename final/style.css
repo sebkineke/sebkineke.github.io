@@ -107,6 +107,8 @@ body {
 	}
 
 
+/* ----------------------------------  HEADER NAV STUFFS  ---------------------------------- */
+
 
 header {
 	display: block;
@@ -121,7 +123,7 @@ header {
 
 
 
-header h1 a {
+#home-logo a {
 	display: inline-block;
 	color: white;
 	font-size: 2.5em;
@@ -132,14 +134,41 @@ header h1 a {
 
 	}
 
-header h1 a:hover {
-	font-size: 2.5em;
+
+
+#home-logo a:hover {
+	color: #101C24;
+	background-color: white;
+	text-decoration: none;
+	}
+
+
+
+
+#planet-logo a {
+	display: inline-block;
+	float: left;
+	color: white;
+	font-size: 1.5em;
 	letter-spacing: 3px;
+	border: 2px solid white;
+	padding: 8px;
+	text-decoration: none;
+	width: 300px;	
+
+	}
+
+
+
+#planet-logo a:hover {
 	color: #101C24;
 	padding: 8px;
 	background-color: white;
 	text-decoration: none;
 	}
+
+
+
 
 header h3 {
 	padding-top: 20px;
@@ -149,7 +178,58 @@ header h3 {
 }
 
 
+header nav a {
+	padding-top: 20px;
+	display: inline-block;
+	float: left;
+	font-size: .8em;
+	width: 8em;
+	color: white;
+	text-decoration: none;
 
+}
+
+
+header nav ul a:hover {
+	border-bottom: 1px solid white;
+}
+
+/* ----------------------------------  PLANET STUFFS  ---------------------------------- */
+
+
+#planet-image {
+	padding-top: 80px;
+	width: 300px;
+	margin: 0 auto;
+
+
+}
+
+.names {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	padding: 20px;
+}
+
+#planet-name {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+#planet-nickname {}
+
+
+.about-planet {
+	width: 40%;
+	margin: 0 auto;
+	color: white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+	line-height: 130%;
+
+}
 
 
 #planets { 

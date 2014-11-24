@@ -154,6 +154,11 @@ header {
 
 		}
 
+				#hamburger img {
+					display:none;
+
+				}
+
 				nav ul li {
 					list-style:none;
 					display:inline;
@@ -255,7 +260,13 @@ footer {
 
 	#logo {font-size: .8em;}
 
-	nav ul li {display: block; font-size: 1em; margin: .5%; padding: 3px 0px 10px 0px;}
+	#hamburger img { display:inline-block; height:30px; }
+
+	#hamburger {height: 80px; background-color: blue;}
+
+	#hamburger:hover ul {display: block; background-color: red;}
+
+	nav ul li {display:none; font-size: 1em; margin: .5%; padding: 3px 0px 10px 0px;}
 			.bullet { display: none; }
 
 
@@ -275,7 +286,7 @@ footer {
 
 
 
-
+}
 
 
 
