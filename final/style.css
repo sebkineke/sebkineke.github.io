@@ -218,11 +218,16 @@ header nav ul a:hover {
 	text-transform: uppercase;
 }
 
-#planet-nickname {}
+#planet-nickname {
+	padding-top: 10px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
 
 
 .about-planet {
-	width: 40%;
+	border-top: 2px solid white;
+	padding-top: 25px;
+	width: 600px;
 	margin: 0 auto;
 	color: white;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
