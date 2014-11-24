@@ -107,7 +107,7 @@ body {
 	}
 
 
-/* ----------------------------------  HEADER NAV STUFFS  ---------------------------------- */
+/* ----------------------------------  PLANETS ARE DOPE LOGO THING  ---------------------------------- */
 
 
 header {
@@ -174,47 +174,52 @@ header h3 {
 	font-size: 1.5em;
 	letter-spacing: 1px;
 
+	}
+
+
+/* ----------------------------------  NAV BAR TO HELP U EXPLORE THE GALAXY  ---------------------------------- */
+
+
+a {
+    color:#000;
+    text-decoration:none;
 }
 
-
-
-header nav {
-	display: inline-block;
-	margin: 0 auto;
-	padding-top: 20px;
+a:hover {
+    text-decoration:underline;
 }
 
-header nav li {
-    display:inline;
+a:visited {
+    color:white;
 }
 
-header nav a {
-	padding: 5px;
-	display: inline-block;
-	float: left;
-	font-size: .8em;
-	width: 5.7em;
-	color: white;
-	text-decoration: none;
-
+.nav {
+    padding:10px;
+    border:solid 1px #c0c0c0;
+    border-radius:5px;
+    float:left;
 }
 
-
-header nav ul a:hover {
-	text-decoration: underline;
+.nav li {
+    list-style-type:none;
+    float:left;
+    margin:0 10px;
 }
 
-.active a {
-	font-weight: 700;
-	background-color: white;
-	color: #101C24;
+.nav li a {
+    text-align:center;
+    width:55px;
+    float:left;
 }
 
-.active a:hover {
-	text-decoration: none;
+.nav li.active {
+    background-color:green;
 }
 
-
+.nav li.active a {
+    color: red;
+    background-color: blue;
+}
 
 /* ----------------------------------  PLANET STUFFS  ---------------------------------- */
 
@@ -225,7 +230,7 @@ header nav ul a:hover {
 	margin: 0 auto;
 
 
-}
+	}
 
 .names {
 	display: block;
@@ -233,17 +238,17 @@ header nav ul a:hover {
 	margin: 0 auto;
 	color: white;
 	padding: 20px;
-}
+	}
 
 #planet-name {
 	font-size: 2em;
 	text-transform: uppercase;
-}
+	}
 
 #planet-nickname {
 	padding-top: 10px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-}
+	}
 
 
 .about-planet {
@@ -256,7 +261,7 @@ header nav ul a:hover {
     font-weight: 300;
 	line-height: 130%;
 
-}
+	}
 
 
 #planets { 

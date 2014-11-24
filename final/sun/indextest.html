@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<!-- FONTS -->
+    <!-- FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css'>
 
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../styletest.css">
 
 
     <!-- JAVASCRIPT -->
 
     <!-- TITLE -->
-	<title>Planets are Dope</title>
+    <title>Planets are Dope</title>
 
   </head>
 
 
   <body>
-  	<header> 
+    <header> 
 
       <h1 id="planet-logo"><a href="http://sebkineke.github.io/final/">Planets are Dope</a></h1>
 
       <nav>
-          <ul>
-                <li class="active"><a href="../sun/index.html">The Sun</a></li>
-                <li><a href="../mercury/index.html">Mercury</a></li>
-                <li><a href="../venus/index.html">Venus</a></li>
-                <li><a href="../earth/index.html">Earth</a></li>
-                <li><a href="../mars/index.html">Mars</a></li>
-                <li><a href="../jupiter/index.html">Jupiter</a></li>
-                <li><a href="../saturn/index.html">Saturn</a></li>
-                <li><a href="../uranus/index.html">Uranus</a></li>
-                <li><a href="../neptune/index.html">Neptune</a></li>
-                <li><a href="../pluto/index.html">Pluto</a></li>
-          </ul>
+              <ul class="nav">
+                  <li><a href="../sun/indextest.html">sun</a>
+                  </li>
+                  <li>|</li>
+                  <li><a href="../sun/indextest.html">planet1</a>
+                  </li>
+                  <li>|</li>
+                  <li><a href="../sun/index.html">planet2</a>
+                  </li>
+                  <li>|</li>
+                  <li><a href="../sun/indextest.html">planet3</a>
+                  </li>
+              </ul>
       </nav>
 
     </header>
   
       <div id="planet-image"><a href="index.html"><img src="../planets/sun.svg"></a></div>              
-  		<div class="names">
+        <div class="names">
           <h3 id="planet-name">The Sun</h3>
           <h4 id="planet-nickname">The Mother Star</h4>
       </div>
@@ -50,5 +51,29 @@
     <p class="about-planet">
       The Sun is quite something. Without it, we would be toast. With it, we are also toast, but in a sunburn kind of way. Our Sun is one of many, all of which are simply exeptionally bright stars. Compared to the rest of the galaxy, our Sun is rather young. It was born a little later in the evolution of the universe. In fact, a whole generation of stars lived and died before it was even born! At this moment, our sun is in the prime of it's life, ripe with a hefty supply of hydrogen to keep it burning and producing heat and energy. In that way, it is like the high school football star. And just like a high school football star, one day it will buckle under pressure, suddenly grow larger than ever before, and consume the orbits that are surrounding it. But that's not something we have to worry about for another several billion years!
     </p>
+
+
+
+<script>
+
+$(function () {
+    setNavigation();
+});
+
+function setNavigation() {
+    var path = window.location.pathname;
+    path = path.replace(/\/$/, "");
+    path = decodeURIComponent(path);
+
+    $(".nav a").each(function () {
+        var href = $(this).attr('href');
+        if (path.substring(0, href.length) === href) {
+            $(this).closest('li').addClass('active');
+        }
+    });
+}
+
+</script>
+
 
 </body>
