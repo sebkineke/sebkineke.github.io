@@ -177,6 +177,13 @@ header h3 {
 }
 
 
+.test {
+	padding-top: 20px;
+	font-size: 1em;
+	letter-spacing: 1px;
+
+}
+
 
 header nav {
 	display: inline-block;
@@ -249,7 +256,7 @@ header nav ul a:hover {
 .about-planet {
 	border-top: 2px solid white;
 	padding-top: 25px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	width: 600px;
 	margin: 0 auto;
 	color: white;
@@ -258,6 +265,30 @@ header nav ul a:hover {
 	line-height: 140%;
 
 }
+
+#summary {
+	padding-bottom: 25px;
+}
+
+em {
+    font-weight: 700;
+    line-height: 250%;
+	text-transform: uppercase;
+	font-size: .8em;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+
+#facts {
+	padding-top: 10px;
+	border-top: 2px solid white;
+
+}
+
+
+
+
 
 
 #planets { 
