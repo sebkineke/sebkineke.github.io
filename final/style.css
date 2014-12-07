@@ -452,9 +452,8 @@ font-style: italic;
 
 
 #home-logo a {
+	width:90%;
 	font-size: 1.8em;
-	letter-spacing: 3px;
-	border: 2px solid white;
 	}
 
 header h3 {
