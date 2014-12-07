@@ -143,7 +143,7 @@ header {
 	text-decoration: none;
 	}
 
-#burger {
+#burger-nav {
 	display: none;
 }
 
@@ -189,17 +189,17 @@ header h3 {
 }
 
 
-header nav {
+#long-nav {
 	display: inline-block;
 	margin: 0 auto;
 	padding-top: 20px;
 }
 
-header nav li {
+#long-nav li {
     display:inline;
 }
 
-header nav a {
+#long-nav a {
 	padding: 5px;
 	display: inline-block;
 	float: left;
@@ -211,17 +211,17 @@ header nav a {
 }
 
 
-header nav ul a:hover {
+#long-nav ul a:hover {
 	text-decoration: underline;
 }
 
-.active a {
+#long-nav .active a {
 	font-weight: 700;
 	background-color: white;
 	color: #101C24;
 }
 
-.active a:hover {
+#long-nav .active a:hover {
 	text-decoration: none;
 }
 
@@ -462,14 +462,6 @@ font-style: italic;
 	
 	}
 
-#burger {
-	display: inline;
-	padding-left: 30px;
-	float: left;
-
-
-}
-
 
 
 header h3 {
@@ -505,14 +497,54 @@ header h3 {
 /* ------------------  PLANET PAGES  ------------------ */
 
 
+.top { margin: 0 auto;}
+
 #planet-logo a {
 	font-size: 4em;	
 	width: 80%;
 	float: left;
 	}
 
-header nav { display: none;}
+#long-nav { display: none;}
 
+
+#burger-nav {
+	display: inline-block;
+	padding-left: 30px;
+	float: left;
+}
+
+
+#burger-nav li ul {
+	display:none;
+	position:absolute;
+	top:30px;
+}
+
+ #burger-nav li:hover ul {
+	display:block;
+
+
+	
+}
+
+#burger-nav li ul li{  
+    display:block;  
+    text-align:center;  
+    position:relative;  
+    padding: 4px 17px 4px 17px;  
+    margin-right:10px;  
+    margin-top:7px; 
+    background-color: white; 
+
+}
+
+#burger-nav li ul li a{  
+	text-decoration: none;
+    color: #101C24;
+    font-size: 2em;
+
+}
 
 .about-planet { width: 97%; font-size: 1.8em;}
 
