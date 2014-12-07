@@ -460,6 +460,11 @@ header h3 {
 
 }
 
+#planet-logo a {
+	width:90%;	
+
+	}
+
 #planets { 
 	display: block;
 	padding-top: 30px;
