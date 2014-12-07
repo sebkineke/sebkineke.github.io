@@ -525,7 +525,7 @@ header h3 {
 
  #burger-nav li:hover ul {
 	display:block;
-
+    background-color: white;
 
 	
 }
@@ -537,15 +537,14 @@ header h3 {
     padding: 4px 17px 4px 17px;  
     margin-right:10px;  
     margin-left:10px;  
-    margin-top:7px; 
-    background-color: white; 
+    margin-top:7px;  
 
 }
 
 #burger-nav li ul li a{  
 	text-decoration: none;
     color: #101C24;
-    font-size: 2em;
+    font-size: 5em;
 
 }
 
