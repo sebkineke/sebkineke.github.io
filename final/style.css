@@ -453,7 +453,9 @@ font-style: italic;
 
 
 #home-logo a {
-	width:90%;
+	font-size: 3.5em;	
+	width: 70%;
+	
 	}
 
 header h3 {
@@ -462,8 +464,8 @@ header h3 {
 }
 
 #planet-logo a {
-	width:90%;	
-
+	font-size: 3.5em;	
+	width: 70%;
 	}
 
 #planets { 
