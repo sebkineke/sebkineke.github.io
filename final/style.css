@@ -446,7 +446,7 @@ font-style: italic;
 
 
 
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
   .facet_sidebar {
     display: none;
   }
@@ -486,7 +486,7 @@ header h3 {
 #pluto { width: 50%; float: none; padding-top: 0px; margin: 0 auto; }
 
  
-.about-planet { width: 90%;}
+.about-planet { width: 90%; font-size: 1.5em;}
 
 
 }
