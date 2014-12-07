@@ -499,7 +499,6 @@ header h3 {
 #pluto { width: 25%; float: none; padding-top: 0px; margin: 0 auto; }
 
  
-.about-planet { width: 90%; font-size: 1.5em;}
 
 
 
@@ -514,6 +513,8 @@ header h3 {
 
 header nav { display: none;}
 
+
+.about-planet { width: 97%; font-size: 1.8em;}
 
 
 }
