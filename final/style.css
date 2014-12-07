@@ -440,6 +440,7 @@ font-style: italic;
 
 
 
+
 /* ----------------------------------  MEDIA QUERY  ---------------------------------- */
 
 
@@ -471,6 +472,8 @@ header h3 {
 	float: none;
 	}
 
+
+
 #sun { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
 #mercury { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
 #venus { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
@@ -481,6 +484,9 @@ header h3 {
 #uranus { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
 #neptune { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
 #pluto { width: 50%; float: none; padding-top: 0px; margin: 0 auto; }
+
+ 
+.about-planet { width: 90%;}
 
 
 }
