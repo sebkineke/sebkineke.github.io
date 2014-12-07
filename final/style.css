@@ -447,7 +447,7 @@ font-style: italic;
 /* ----------------------------------  MEDIA QUERY  ---------------------------------- */
 
 
-
+/* ------------------  HOME PAGE  ------------------ */
 
 @media (max-width: 1200px) {
   .facet_sidebar {
@@ -458,7 +458,7 @@ font-style: italic;
 #home-logo a {
 	float: left;
 	font-size: 4em;	
-	width: 80%;
+	width: 90%;
 	
 	}
 
@@ -478,11 +478,6 @@ header h3 {
 
 }
 
-
-#planet-logo a {
-	font-size: 4em;	
-	width: 90%;
-	}
 
 #planets { 
 	display: block;
@@ -505,6 +500,20 @@ header h3 {
 
  
 .about-planet { width: 90%; font-size: 1.5em;}
+
+
+
+/* ------------------  PLANET PAGES  ------------------ */
+
+
+#planet-logo a {
+	font-size: 4em;	
+	width: 80%;
+	float: left;
+	}
+
+header nav { display: none;}
+
 
 
 }
