@@ -526,12 +526,15 @@ header h3 {
  #burger-nav li:hover ul {
 	display:block;
     background-color: white;
+   	width: 70%; 
+   	margin: 0 auto;
+   	margin-left: 20%;
 
 	
 }
 
 #burger-nav li ul li{ 
-	width: 95%; 
+   	width: 80%; 
     display:inline-block;  
     text-align:center;
     padding: 4px 17px 4px 17px;  
