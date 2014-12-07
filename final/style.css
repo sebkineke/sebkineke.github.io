@@ -143,6 +143,9 @@ header {
 	text-decoration: none;
 	}
 
+#burger {
+	display: none;
+}
 
 
 
@@ -453,15 +456,28 @@ font-style: italic;
 
 
 #home-logo a {
+	float: left;
 	font-size: 4em;	
-	width: 90%;
+	width: 80%;
 	
 	}
 
-header h3 {
-	font-size: 1em;
+#burger {
+	display: inline;
+	padding-left: 30px;
+	float: left;
+
 
 }
+
+
+
+header h3 {
+	font-size: 1em;
+	clear: both;
+
+}
+
 
 #planet-logo a {
 	font-size: 4em;	
@@ -476,16 +492,16 @@ header h3 {
 
 
 
-#sun { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
+#sun { width: 50%; float: none; padding-top: 0px; margin: 0 auto; }
 #mercury { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
 #venus { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
 #earth { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
 #mars { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
-#jupiter { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
-#saturn { width: 50%; float: none; padding-top: 0px; margin: 0 auto; }
-#uranus { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
-#neptune { width: 30%; float: none; padding-top: 0px; margin: 0 auto; }
-#pluto { width: 50%; float: none; padding-top: 0px; margin: 0 auto; }
+#jupiter { width: 35%; float: none; padding-top: 0px; margin: 0 auto; }
+#saturn { width: 60%; float: none; padding-top: 0px; margin: 0 auto; }
+#uranus { width: 25%; float: none; padding-top: 0px; margin: 0 auto; }
+#neptune { width: 25%; float: none; padding-top: 0px; margin: 0 auto; }
+#pluto { width: 25%; float: none; padding-top: 0px; margin: 0 auto; }
 
  
 .about-planet { width: 90%; font-size: 1.5em;}
