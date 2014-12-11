@@ -52,7 +52,7 @@ table {
 
 
 body {
-	background-color: #b5e8bf;	
+	background-color: #fc9e49;	
 	width: 90%;
 	margin: 0 auto;
 }
@@ -64,7 +64,7 @@ body {
 h1 {
 	font-size: 2.5em;
 	color: white;
-	font-family: 'Helvetica';
+	font-family: 'cooper_blackregular','Helvetica';
 	text-transform: uppercase;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -72,8 +72,17 @@ h1 {
 
 }
 
+
+h1 a {
+
+	text-decoration: none;
+	color: white;
+	letter-spacing: 2px;
+}
+
+
 h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 	color: white;
 	font-family: 'Helvetica';
 	font-style: italic;
@@ -87,12 +96,13 @@ h2 {
 	text-align: center;
 	margin: 0 auto;
 	list-style: none;
+	padding-bottom: 3px;
 }
 
 							.nav li {
-								padding-right: 1em;
+								padding-right: 1.5em;
 								font-family: Helvetica;
-								font-size: .9em;
+								font-size: 1.2em;
 								display: inline;
 
 
@@ -102,7 +112,7 @@ h2 {
 
 								text-decoration: none;
 								display: inline-block;
-								color: #cc0256;
+								color: #FF1D4D;
 
 							}
 
@@ -110,32 +120,151 @@ h2 {
 
 								text-decoration: none;
 								display: inline-block;
-								color: #cc0256;
-								border-bottom: 2px solid #cc0256; 
+								color: #FF1D4D;
+								border-bottom: 2px solid #FF1D4D; 
 
 							}
 
-							.nav a:selected {
+							.selected a {
 
 								text-decoration: none;
 								display: inline-block;
-								color: #cc0256;
-								border-bottom: 2px solid #cc0256;
-								padding: 4px #cc0256;
+								color: #FF1D4D;
+								border-bottom: 2px solid #FF1D4D;
+								padding:3px;
+
 
 							}
 
 
 
-img {
-	width:10%;
+#bigpic img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	padding-top: 40px;
+
+}
+
+.info {
+	display: block;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 1.8em;
+	padding-top: 40px;
+	color: white; 
+	width: 60%;
+	line-height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+em {
+	font-style: italic;
 
 }
 
 
-#slothpix {
-	display: none;
+.info-indepth {
+	display: block;
+	float: left;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 1.2em;
+	padding-top: 40px;
+	color: white; 
+	width: 40%;
+	line-height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+
+.dog-sidebar {
+	display: block;
+	float: left;
+	width: 27%;
+	padding-top: 50px;
+
 
 }
 
+.dog-sidebar ul li {
+
+	padding-bottom: 30px;
+
+
+
+}
+
+.dog-sidebar ul li img {
+
+	width: 300px;
+
+
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #FF1D4D;
+	text-align: center;
+
+}
+
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+
+footer a {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 1.3em;
+}
+
+.sources a {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 1.3em;
+}
+
+.sources {
+	padding-top: 30px;
+
+}
+
+.sources p {
+		padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'cooper_blackregular';
+    src: url('fonts/cooper_black-webfont.eot');
+    src: url('fonts/cooper_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cooper_black-webfont.woff2') format('woff2'),
+         url('fonts/cooper_black-webfont.woff') format('woff'),
+         url('fonts/cooper_black-webfont.ttf') format('truetype'),
+         url('fonts/cooper_black-webfont.svg#cooper_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
