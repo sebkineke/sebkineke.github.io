@@ -142,7 +142,7 @@ h2 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1200px;
+	width: 1000px;
 	padding-top: 40px;
 
 }
@@ -150,7 +150,7 @@ h2 {
 .info {
 	display: block;
 	font-family: 'Helvetica', sans-serif;
-	font-size: 1.8em;
+	font-size: 1.3em;
 	padding-top: 40px;
 	color: white; 
 	width: 60%;
