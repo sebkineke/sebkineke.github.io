@@ -295,7 +295,7 @@ smaller than 980
 		}
 
 		h2 {
-			font-size: 1em;
+			font-size: 1.5em;
 			text-transform: uppercase;
 			text-align: center;
 			font-family: 'Inconsolata', sans-serif;
@@ -309,6 +309,7 @@ smaller than 980
 		nav ul li {
 			display: inline-block;
 			padding: 1.5em;
+			padding-top: 3%;
 			text-decoration: none;
 			color: #b0e3d5;
 		}
