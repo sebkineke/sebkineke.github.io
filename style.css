@@ -227,6 +227,7 @@ ul.img-list li:hover span.text-content {
 	  color: white;
 		font-family: 'Inconsolata', sans-serif;
 		font-size: 2em;
+		padding-top: 20px;
 		letter-spacing: 2.5px;
 		text-transform: uppercase;
 	  cursor: pointer;
