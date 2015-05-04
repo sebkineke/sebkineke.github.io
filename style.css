@@ -195,7 +195,7 @@ ul.img-list li:hover span.text-content {
 /* - - - - - - MEDIA QUERY WEEEEEEEE - - - - - -  */
 
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
 	body {
 		background-color: #fffcfc;
@@ -233,7 +233,7 @@ ul.img-list li:hover span.text-content {
 
 
 
-@media (max-width: 650px) {
+@media (max-width: 50px) {
 
 	body {
 		background-color: #fffcfc;
