@@ -267,13 +267,13 @@ smaller than 980
 	@media screen and (max-width: 650px) {
 
 		#name img {
-			width: 100%;
+			width: 90%;
 
 		}
 
 	body {
 		background-color: #fffcfc;
-		max-width: 90%;
+		max-width: 100%;
 		margin: 0 auto;
 
 	}
