@@ -264,7 +264,6 @@ ul.img-list li:hover span.text-content {
 smaller than 980
 *************************************************************************************/
 @media screen and (max-width: 980px) {
-	@media screen and (max-width: 650px) {
 
 		#name img {
 			width: 90%;
