@@ -271,6 +271,69 @@ smaller than 980
 
 		}
 
+		#header {
+			padding: 5px;
+			border-top: 2px solid #BE6057;
+			border-bottom: 2px solid #BE6057;
+
+
+		}
+
+		h1 {
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'Inconsolata', sans-serif;
+			letter-spacing: 2.5px;
+			font-size: 1.5em;
+			padding-top: 90px;
+			padding-bottom: 10px;
+		}
+
+		h1 a{
+			text-decoration: none;
+			color: #000000;
+		}
+
+		h2 {
+			font-size: 1em;
+			text-transform: uppercase;
+			text-align: center;
+			font-family: 'Inconsolata', sans-serif;
+			font-weight: 700;
+			letter-spacing: 1px;
+			padding-bottom: 20px;
+
+
+		}
+
+		nav ul li {
+			display: inline-block;
+			padding: 1em;
+			text-decoration: none;
+			color: #b0e3d5;
+		}
+
+		nav a {
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: 'Inconsolata', sans-serif;
+			font-weight: 700;
+			letter-spacing: .8px;
+			font-size: 1.2em;
+			color: #000000;
+		}
+
+		nav a:hover {
+			text-decoration: underline;
+		}
+
+		nav a:select {
+			text-decoration:underline;
+			color: #000000;
+		}
+
+
+
 	body {
 		background-color: #fffcfc;
 		max-width: 100%;
