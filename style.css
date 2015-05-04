@@ -216,7 +216,7 @@ ul.img-list li:hover span.text-content {
 	ul.img-list li {
 	  display: inline-block;
 	  height: 400px;
-	  margin: 0 1em 1em 0;
+	  margin: 0 .5em .5em 0;
 	  position: relative;
 	  width: 400px;
 	}
