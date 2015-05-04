@@ -195,7 +195,7 @@ ul.img-list li:hover span.text-content {
 /* - - - - - - MEDIA QUERY WEEEEEEEE - - - - - -  */
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
 
 	body {
 		background-color: #fffcfc;
@@ -215,7 +215,7 @@ ul.img-list li:hover span.text-content {
 
 	ul.img-list li {
 	  display: inline-block;
-	  height: 200px;
+	  height: 400px;
 	  margin: 0 1em 1em 0;
 	  position: relative;
 	  width: 400px;
