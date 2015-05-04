@@ -140,12 +140,13 @@ nav a:select {
 }
 
 img {
-	padding-top: 4%;	
+	padding-top: 4%;
 }
 
 p {
 	padding-top: 4%;
 	font-family: 'Inconsolata', sans-serif;
+	line-height: 20px;
 }
 
 
