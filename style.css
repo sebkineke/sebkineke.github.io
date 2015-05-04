@@ -272,6 +272,11 @@ smaller than 650
 *************************************************************************************/
 @media screen and (max-width: 650px) {
 
+	#name img {
+		width: 100%;
+
+	}
+
 body {
 	background-color: #fffcfc;
 	max-width: 100%;
@@ -343,10 +348,7 @@ your css here
 
 @media (max-width: 50px) {
 
-	#name img {
-		width: 100%;
 
-	}
 
 	body {
 		background-color: #fffcfc;
