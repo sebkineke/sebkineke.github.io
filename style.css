@@ -319,7 +319,8 @@ smaller than 980
 			font-family: 'Inconsolata', sans-serif;
 			font-weight: 700;
 			letter-spacing: .8px;
-			font-size: 1.5em;
+			font-size: 18em;
+			padding-top: 2%;
 			color: #000000;
 		}
 
