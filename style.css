@@ -195,7 +195,35 @@ ul.img-list li:hover span.text-content {
 /* - - - - - - MEDIA QUERY WEEEEEEEE - - - - - -  */
 
 
+@media (max-width: 900px) {
 
+	body {
+		background-color: #fffcfc;
+		max-width: 100%;
+		margin: 0 auto;
+
+	}
+
+	nav ul li {font-size: 1em; display: block; padding: none;}
+
+	ul.img-list {
+	  list-style-type: none;
+	  margin: 0;
+	  padding-top: 20px;
+	  text-align: center;
+	}
+
+	ul.img-list li {
+	  display: inline-block;
+	  height: 200px;
+	  margin: 0 1em 1em 0;
+	  position: relative;
+	  width: 400px;
+	}
+
+	img {width: 100%; height: 100%}
+
+}
 
 
 
