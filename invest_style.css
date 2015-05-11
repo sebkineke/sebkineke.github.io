@@ -254,7 +254,9 @@ nav {
 	nav ul li {font-size: 1em; display: block; padding: none;}
 
 
-	img {width: 100%; 
+	img {
+		width: 100%;
+		padding-top:2%;	
 
 	}
 }
