@@ -149,9 +149,39 @@ p {
 	line-height: 20px;
 }
 
+.me{
+	display: inline-block;
+	padding-bottom:5%;
+}
 
 
+.me-pic {
+	width:50%;
+	float: left;
+}
 
+
+.me-text {
+	display: inline-block;
+	width:40%;
+	float: left;
+	padding-left:3%;
+	padding-top:3%;
+}
+
+ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Inconsolata', sans-serif;
+	font-weight: 700;
+	letter-spacing: .8px;
+	font-size: .9em;
+	color: #000000;
+}
+
+ul li a:hover {
+	text-decoration: underline;
+}
 
 /* - - - - - - MEDIA QUERY WEEEEEEEE - - - - - -  */
 
