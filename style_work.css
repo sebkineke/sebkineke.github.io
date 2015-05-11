@@ -55,7 +55,7 @@ table {
 
 body {
 	background-color: #fffcfc;
-	max-width: 65%;
+	max-width: 75%;
 	margin: 0 auto;
 
 }
@@ -149,27 +149,29 @@ p {
 	line-height: 25px;
 }
 
-.me{
-	display: inline-block;
+#me{
+	float: left;
+	padding-top:5%;
 	padding-bottom:5%;
-	margin: 0 auto;
+	padding-left:8%;
+	margin: 0 0 0 0;
 }
 
 
 .me-pic {
 	display: inline-block;
-	width:30%;
+	width:500px;
 	float: left;
 }
 
-
 .me-text {
 	display: inline-block;
-	width:40%;
+	width:30%;
 	float: left;
 	padding-left:3%;
 	padding-top:3%;
 }
+
 
 ul li a {
 	text-decoration: none;
@@ -185,7 +187,20 @@ ul li a:hover {
 	text-decoration: underline;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* - - - - - - MEDIA QUERY WEEEEEEEE - - - - - -  */
+
+@media screen and (max-width: 1000px)
 
 
 body {
@@ -354,19 +369,31 @@ nav a:select {
 	}
 
 
+
+
+
 	.me-pic {
-		display: inline-block;
-		float: left;
-	}
-
-
-	.me-text {
-		display: inline-block;
+		display: block;
+		position: static;
 		width:30%;
 		float: left;
-		padding-top: 0%;
 	}
-}
+
+	.me-text {
+		display: block;
+		width:60%;
+		float: left;
+		padding-left:3%;
+		padding-top:3%;
+	}
+
+	.me-text2 {
+		display: block;
+		float: none;
+		width:30%;
+		padding-left:3%;
+		padding-top:3%;
+	}
 
 }
 
@@ -512,26 +539,7 @@ nav {
 
 	}
 
-	.me{
-		display: inline-block;
-		padding-bottom:5%;
-		padding-top: 5%;
-	}
 
-
-	.me-pic {
-		width:30%;
-		float: left;
-		margin: 0 0 0 0;
-	}
-
-
-	.me-text {
-		display: inline-block;
-		width:60%;
-		float: left;
-		padding-top: 0%;
-	}
 }
 
 /************************************************************************************
