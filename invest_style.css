@@ -147,7 +147,8 @@ ul.img-list li {
   display: inline-block;
   height: 150px;
   margin: 0 1em 1em 0;
-  position: relative;
+	padding-left: 1%;
+	position: relative;
   width: 1000px;
 	float: none;
 }
