@@ -149,7 +149,7 @@ ul.img-list li {
   margin: 0 1em 1em 0;
   position: relative;
   width: 1000px;
-	float: clear;
+	float: none;
 }
 
 ul.img-list li p {
