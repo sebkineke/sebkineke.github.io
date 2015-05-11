@@ -139,13 +139,15 @@ nav a:select {
 	color: #000000;
 }
 
+ul {
 
+}
 
 ul.img-list {
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 0 0;
   padding-top: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 ul.img-list li {
