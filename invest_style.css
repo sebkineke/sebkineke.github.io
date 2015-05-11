@@ -103,6 +103,7 @@ nav {
 	font-family: 'Inconsolata', sans-serif;
 	font-size: .9em;
 	text-align: center;
+	padding-top: 20px;
 
 
 
@@ -110,7 +111,7 @@ nav {
 
 nav ul li {
 	display: inline-block;
-	padding: .5em;
+	padding-bottom: .5em;
 	text-decoration: none;
 	color: #b0e3d5;
 }
@@ -139,33 +140,38 @@ nav a:select {
 ul.img-list {
   list-style-type: none;
   margin: 0;
-  padding-top: 40px;
   text-align: center;
+	padding-top:4%;
 }
 
 ul.img-list li {
   display: inline-block;
-  height: 800px;
-  margin: 0 1em 1em 0;
+  height: 700px;
+  margin: 0 0 0 0;
 	padding-left: 2%;
 	position: relative;
-  width: 1000px;
+  width: 90%;
 	float: none;
+	padding-bottom: 50px;
 }
 
-ul.img-list li p {
+ul.text li p {
   display: inline-block;
 	font-family: 'Inconsolata', sans-serif;
 	color: #fcfae4;
-	line-height: 24px;
-  height: 150px;
-
+	line-height: 35px;
+	height: 100px;
+	text-align: center;
+	font-size: 25px;
   position: relative;
-  width: 500px;
-	padding-bottom:3%;
+  width: 90%;
+	padding-top: 4%;
+	padding-left: 6%;
 }
 
 
+
+}
 img {
 	padding-bottom: 8%;
 }
