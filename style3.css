@@ -1,0 +1,250 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END RESET */
+
+body {
+	width:100%;
+}
+
+// Accordion Height
+$a-height: 250px;
+
+// Position text along bottom
+$text-offset: $a-height - 90;
+
+// Page Title
+h1 {
+
+  text-align:center;
+  font-family:Montserrat,sans-serif;
+  color:#333;
+
+}
+
+.accordion {
+
+  width:100%;
+  max-width:1080px;
+  height:$a-height;
+  overflow:hidden;
+  margin:50px auto;
+
+  ul {
+
+    width:100%;
+    display:table;
+    table-layout:fixed;
+    margin:0;
+    padding:0;
+
+    li {
+
+      display:table-cell;
+      vertical-align:bottom;
+      position: relative;
+      width:16.666%; // 6 into 100
+      height:$a-height;
+
+      background-repeat:no-repeat;
+      background-position:center center;
+
+      transition:all 500ms ease;
+
+      div {
+
+        display:block;
+        overflow:hidden;
+        width:100%;
+
+        a {
+
+          display:block;
+          height:$a-height;
+          width:100%;
+
+          position:relative;
+          z-index:3;
+          vertical-align:bottom;
+          padding:15px 20px;
+          box-sizing:border-box;
+          color:#fff;
+          text-decoration:none;
+          font-family:Open Sans, sans-serif;
+
+          transition:all 200ms ease;
+
+          * {
+
+            opacity:0;
+            margin:0;
+            width:100%;
+            text-overflow:ellipsis;
+            position:relative;
+            z-index:5;
+
+            white-space:nowrap;
+            overflow:hidden;
+
+            -webkit-transform:translateX(-20px);
+            transform:translateX(-20px);
+
+            -webkit-transition:all 400ms ease;
+            transition:all 400ms ease;
+
+          }
+
+          h2 {
+
+            font-family:Montserrat,sans-serif;
+            text-overflow:clip;
+            font-size:24px;
+            text-transform:uppercase;
+            margin-bottom:2px;
+
+            top:$text-offset;
+
+          }
+
+          p {
+
+            top:$text-offset;
+            font-size:13.5px;
+
+          }
+
+        }
+
+      }
+
+    }
+
+    li:nth-child(1) { background-image:url('images/gridordie/look2.JPG'); }
+    li:nth-child(2) { background-image:url('http://michaelferry.com/assets/accordion2.jpg'); }
+    li:nth-child(3) { background-image:url('http://michaelferry.com/assets/accordion3.jpg'); }
+    li:nth-child(4) { background-image:url('http://michaelferry.com/assets/accordion4.jpg'); }
+    li:nth-child(5) { background-image:url('http://michaelferry.com/assets/accordion5.jpg'); }
+    li:nth-child(6) { background-image:url('http://michaelferry.com/assets/accordion6.jpg'); }
+
+    &:hover li { width:8%; }
+
+    &:hover li:hover {
+
+      width:60%;
+
+      a {
+
+        background:rgba(0,0,0,.4);
+
+        * {
+
+          opacity:1;
+          -webkit-transform:translateX(0);
+          transform:translateX(0);
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+// Stack items
+@media screen and (max-width: 600px) {
+
+  body { margin:0; }
+
+  .accordion {
+
+    height:auto;
+
+    ul,ul:hover {
+
+      li,li:hover {
+
+        position:relative;
+        display:table;
+        table-layout:fixed;
+        width:100%;
+
+        -webkit-transition:none;
+        transition:none;
+
+      }
+
+    }
+
+  }
+
+}
+
+.about {
+
+  text-align:center;
+  font-family:'Open Sans', sans-serif;
+  font-size:12px;
+  color:#666;
+
+  a {
+
+    color:red;
+    text-decoration:none;
+
+    &:hover { text-decoration:underline; }
+
+  }
+
+}
