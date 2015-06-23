@@ -183,7 +183,17 @@ ul li a:hover {
 
 
 
+footer p {
+	color: #6F6F6F;
+	font-family: 'Inconsolata', sans-serif;
+	font-size: .3em;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 4%;
 
+}
 
 
 
@@ -268,7 +278,38 @@ body {
 		padding-top: 0;
 	}
 
-	nav ul li {font-size: 1em; padding: none;}
+	nav {
+			padding-top: 5%;
+	}
+
+			nav ul li {
+				display: inline-block;
+				padding: 1.5em;
+				padding-top: 3%;
+				font-size: 1.5em;
+				text-decoration: none;
+				color: #b0e3d5;
+			}
+
+			nav a {
+				text-decoration: none;
+				text-transform: uppercase;
+				font-family: 'Inconsolata', sans-serif;
+				font-weight: 700;
+				letter-spacing: .8px;
+				padding-top: 3%;
+				color: #000000;
+			}
+
+			nav a:hover {
+				text-decoration: underline;
+			}
+
+			nav a:select {
+				text-decoration:underline;
+				color: #000000;
+			}
+
 
 	ul.img-list {
 	  list-style-type: none;
@@ -339,10 +380,10 @@ body {
 }
 
 
-footer {
+footer p {
 	color: #6F6F6F;
 	font-family: 'Inconsolata', sans-serif;
-	font-size: .5em;
+	font-size: .3em;
 	font-weight: 700;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -396,38 +437,37 @@ smaller than 980
 
 		}
 
-nav {
-		padding-top: 5%;
-}
-
-		nav ul li {
-			display: inline-block;
-			padding: 1.5em;
-			padding-top: 3%;
-			font-size: 2em;
-			text-decoration: none;
-			color: #b0e3d5;
+		nav {
+				padding-top: 5%;
 		}
 
-		nav a {
-			text-decoration: none;
-			text-transform: uppercase;
-			font-family: 'Inconsolata', sans-serif;
-			font-weight: 700;
-			letter-spacing: .8px;
-			font-size: 1.8em;
-			padding-top: 3%;
-			color: #000000;
-		}
+				nav ul li {
+					display: inline-block;
+					padding: 1.5em;
+					padding-top: 3%;
+					font-size: 1.5em;
+					text-decoration: none;
+					color: #b0e3d5;
+				}
 
-		nav a:hover {
-			text-decoration: underline;
-		}
+				nav a {
+					text-decoration: none;
+					text-transform: uppercase;
+					font-family: 'Inconsolata', sans-serif;
+					font-weight: 700;
+					letter-spacing: .8px;
+					padding-top: 3%;
+					color: #000000;
+				}
 
-		nav a:select {
-			text-decoration:underline;
-			color: #000000;
-		}
+				nav a:hover {
+					text-decoration: underline;
+				}
+
+				nav a:select {
+					text-decoration:underline;
+					color: #000000;
+				}
 
 p {
 	font-size: 25px;
@@ -442,7 +482,6 @@ p {
 
 	}
 
-	nav ul li {font-size: 2em; padding: none;}
 
 	ul.img-list {
 		list-style-type: none;
@@ -495,7 +534,17 @@ p {
 
 	}
 
+	footer {
+		color: #6F6F6F;
+		font-family: 'Inconsolata', sans-serif;
+		font-size: .3em;
+		font-weight: 700;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 4%;
 
+	}
 }
 
 /************************************************************************************
@@ -543,38 +592,40 @@ smaller than 650
 
 	}
 
-nav {
-	padding-top: 5%;
-}
+	nav {
+			padding-top: 5%;
+		}
 
 	nav ul li {
-		display: inline-block;
-		padding: 1.5em;
-		padding-top: 3%;
-		text-decoration: none;
-		color: #b0e3d5;
-	}
+				display: inline-block;
+				padding: 1em;
+				padding-top: 3%;
+				text-decoration: none;
+				color: #b0e3d5;
+			}
 
 	nav a {
-		text-decoration: none;
-		text-transform: uppercase;
-		font-family: 'Inconsolata', sans-serif;
-		font-weight: 700;
-		letter-spacing: .8px;
-		font-size: 1.8em;
-		padding-top: 3%;
-		color: #000000;
-	}
+				text-decoration: none;
+				text-transform: uppercase;
+				font-family: 'Inconsolata', sans-serif;
+				font-weight: 700;
+				letter-spacing: .8px;
+				padding-top: 3%;
+				color: #000000;
+			}
 
 	nav a:hover {
-		text-decoration: underline;
-		padding-top: 3%;
-	}
+				text-decoration: underline;
+				padding-top: 3%;
+			}
 
 	nav a:select {
-		text-decoration:underline;
-		color: #000000;
-	}
+				text-decoration:underline;
+				color: #000000;
+			}
+
+
+
 
 .pics p {
 	font-size: 20px;
@@ -585,5 +636,20 @@ body {
 	background-color: #fffcfc;
 	max-width: 100%;
 	margin: 0 auto;
+
+}
+
+
+footer {
+	color: #6F6F6F;
+	font-family: 'Inconsolata', sans-serif;
+	font-size: .3em;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 4%;
+
+}
 
 }
