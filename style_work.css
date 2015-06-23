@@ -104,7 +104,6 @@ h2 {
 	width: 300px;
 
 }
-
 nav {
 	font-family: 'Inconsolata', sans-serif;
 	font-size: .9em;
@@ -214,6 +213,64 @@ body {
 
 }
 
+nav {
+		padding-top: 5%;
+}
+
+		nav ul li {
+			display: inline-block;
+			padding: 1em;
+			padding-top: 3%;
+			font-size: 2em;
+			font-color: blue;
+			text-decoration: none;
+			color: blue;
+		}
+
+		nav a {
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: 'Inconsolata', sans-serif;
+			font-weight: 700;
+			letter-spacing: .8px;
+			padding-top: 3%;
+			color: #000000;
+		}
+
+		nav a:hover {
+			text-decoration: underline;
+		}
+
+		nav a:select {
+			text-decoration:underline;
+			color: #000000;
+		}
+
+	ul.img-list {
+		list-style-type: none;
+		margin: 0;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	ul.img-list li {
+		display: inline-block;
+		height: 90%;
+		margin: 0 0 0 0;
+		padding-top: 10px;
+		position: relative;
+		width: 90%;
+	}
+
+	span.text-content {
+		display:none;
+}
+
+
+	ul.img-list li:hover span.text-content {
+		display: none;
+	}
+
 
 
 	ul.img-list {
@@ -247,68 +304,6 @@ body {
 		padding-top: 0;
 	}
 
-	ul.img-list {
-		list-style-type: none;
-		margin: 0;
-		padding-top: 20px;
-		text-align: center;
-	}
-
-	ul.img-list li {
-		display: inline-block;
-		height: 90%;
-		margin: 0 0 0 0;
-		padding-top: 10px;
-		position: relative;
-		width: 90%;
-	}
-
-	span.text-content {
-		display:none;
-}
-
-
-	ul.img-list li:hover span.text-content {
-		display: none;
-	}
-
-	ul.img-list .mobile-title {
-		display:inline-block;
-		height:40px;
-		padding-top: 0;
-	}
-
-	nav {
-			padding-top: 5%;
-	}
-
-			nav ul li {
-				display: inline-block;
-				padding: 1.5em;
-				padding-top: 3%;
-				font-size: 1.5em;
-				text-decoration: none;
-				color: #b0e3d5;
-			}
-
-			nav a {
-				text-decoration: none;
-				text-transform: uppercase;
-				font-family: 'Inconsolata', sans-serif;
-				font-weight: 700;
-				letter-spacing: .8px;
-				padding-top: 3%;
-				color: #000000;
-			}
-
-			nav a:hover {
-				text-decoration: underline;
-			}
-
-			nav a:select {
-				text-decoration:underline;
-				color: #000000;
-			}
 
 
 	ul.img-list {
@@ -363,9 +358,10 @@ body {
 
 	p {
 		padding: 4%;
-		font-family: 'Inconsolata', sans-serif;
-		line-height: 25px;
-		font-size: 18px;
+			font-size: 20px;
+			line-height: 25px;
+
+		}
 	}
 
 
@@ -443,9 +439,9 @@ smaller than 980
 
 				nav ul li {
 					display: inline-block;
-					padding: 1.5em;
+					padding: 1em;
 					padding-top: 3%;
-					font-size: 1.5em;
+					font-size: 2em;
 					text-decoration: none;
 					color: #b0e3d5;
 				}
@@ -471,7 +467,7 @@ smaller than 980
 
 p {
 	font-size: 25px;
-	line-height: 30px;
+	line-height: 31px;
 
 }
 
@@ -600,6 +596,8 @@ smaller than 650
 				display: inline-block;
 				padding: 1em;
 				padding-top: 3%;
+				font-size: 2em;
+				font-color: blue;
 				text-decoration: none;
 				color: #b0e3d5;
 			}
@@ -629,6 +627,7 @@ smaller than 650
 
 .pics p {
 	font-size: 20px;
+	line-height: 25px;
 
 }
 
