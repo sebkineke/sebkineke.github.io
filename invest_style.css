@@ -141,18 +141,17 @@ ul.img-list {
   list-style-type: none;
   margin: 0;
   text-align: center;
-	padding-top:4%;
+	padding-top:10px;
 }
 
 ul.img-list li {
   display: inline-block;
-  height: 700px;
+  height: 30px;
+	padding: 2%;
   margin: 0 0 0 0;
-	padding-left: 2%;
 	position: relative;
-  width: 90%;
+  width: 70%;
 	float: none;
-	padding-bottom: 50px;
 }
 
 ul.text li p {
@@ -174,5 +173,5 @@ ul.text li p {
 
 }
 img {
-	padding-bottom: 8%;
+	padding-bottom: 20px;
 }
