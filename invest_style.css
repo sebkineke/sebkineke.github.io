@@ -146,11 +146,11 @@ ul.img-list {
 
 ul.img-list li {
   display: inline-block;
-  height: 30px;
+
 	padding: 2%;
   margin: 0 0 0 0;
 	position: relative;
-  width: 70%;
+  width: 60%;
 	float: none;
 }
 
